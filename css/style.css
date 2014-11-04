@@ -1,0 +1,410 @@
+/*********************************************************************************/
+/* main body of css                                                                   */
+/*********************************************************************************/
+
+	html, body
+	{
+		height: 100%;
+		width: 100%
+	}
+
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #261300 url(images/overlay.png) repeat;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+
+	a
+	{
+		color: #0000FF;
+	}
+
+	a:hover
+	{
+		text-decoration: none;
+	}
+
+
+	.container
+	{
+		margin: 0px auto;
+		width: 800px;
+
+	}
+
+
+
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	a .icon{
+
+	width: 50px;
+	height: 50px;
+
+	}
+
+	.construction{
+	width: 100px;
+	height: 100px;
+	}
+
+/*********************************************************************************/
+/* Keywords                                                                      */
+/*********************************************************************************/
+
+	b.texttag{
+
+
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1.5em;
+	}
+
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+
+
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 1em 2em 1em 2em;
+		background: #BF1E4B;
+		letter-spacing: 0.20em;
+		line-height: 1.8em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+	.title h2
+	{
+		font-size: 2.8em;
+		color: #261300;
+	}
+
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #CCC;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		overflow: hidden;
+		padding: 0em 5em 0em 5em;
+	}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+
+	#logo h1
+	{
+		font-size: 3.5em;
+	}
+
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	#logo span
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: #fff;
+		opacity: .5;
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.8);
+	}
+
+
+
+
+
+
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper1
+	{
+		overflow: hidden;
+		background: #242424;
+		padding: 8em 0em 4em 0em;
+
+	}
+
+	#wrapper2
+	{
+		overflow: hidden;
+		background: #DC572E;
+		padding: 0em 8em 0em 8em;
+	}
+
+	#wrapper3
+	{
+		overflow:hidden;
+		padding: 8em 0em 4em 0em;
+		background: #FFF;
+	}
+
+	#wrapper4
+	{
+		overflow: hidden;
+		background: #FFF;
+		padding: 0em 0em 0em 0em;
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		width: 1000px;
+		padding: 8em 100px 8em 100px;
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#welcome .content
+	{
+		padding: 0em 8em;
+	}
+
+	#welcome .title h2
+	{
+
+		color: rgba(0,0,0,0.8);
+	}
+
+	#welcome a, #welcome strong
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		text-align: center;
+	}
+
+
+	#footer .title span
+	{
+		color: rgba(255,255,255,0.4);
+	}
+
+
+
+
+/*********************************************************************************/
+/* Portfolio                                                                     */
+/*********************************************************************************/
+
+
+	#portfolio .box
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.5);
+	}
+
+	#portfolio h3
+	{
+		display: block;
+		padding-bottom: 1em;
+		text-transform: uppercase;
+		font-size: 1em;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#portfolio .title
+	{
+		text-align: center;
+	}
+
+	#portfolio .title h2
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+	.column1,
+	.column2,
+	.column3,
+	.column4
+	{
+		width: 282px;
+	}
+
+	.column1,
+	.column2,
+	.column3
+	{
+		float: left;
+		margin-right: 24px;
+	}
+
+
+
+/*********************************************************************************/
+/* Three Columns                                                                 */
+/*********************************************************************************/
+
+	#three-column
+	{
+		overflow: hidden;
+		padding-bottom: 4em;
+		text-align: center;
+	}
+
+	#three-column h2
+	{
+		margin: 1em 0em;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+
+
+
+	#three-column #tbox1,
+	#three-column #tbox2,
+	#three-column #tbox3
+	{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+	}
+
+	#three-column .title
+	{
+		letter-spacing: 0.10em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#three-column .title h2
+	{
+		font-size: 1.60em;
+		font-weight: 900;
+		font-family: 'Open Sans', sans-serif;
+		color: #261300;
+	}
+
+	#three-column .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#three-column .arrow-down
+	{
+		border-top-color: #292929;
+	}
+
