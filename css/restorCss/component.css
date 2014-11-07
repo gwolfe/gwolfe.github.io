@@ -11,15 +11,15 @@
 
 
 .demo-1 .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
-    max-height: 200px;
-    max-width: 8000em;
-}
+	background-image: url('../images/demo-1-bg.jpg');
+     max-height: 400px;
+     max-width: 100%;
+ }
 
-.demo-2 .large-header {
-	background-image: url('../img/demo-2-bg.jpg');
-	background-position: center bottom;
-}
+ .demo-2 .large-header {
+	background-image: url('../imges/demo-2-bg.jpg');
+ 	background-position: center bottom;
+ }
 
 .demo-3 .large-header {
 	background: #7f8c8d;
