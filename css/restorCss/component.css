@@ -10,13 +10,11 @@
 }
 
 .demo-1 .large-header {
-	background-image: url('../images/demo-1-bg.jpg');
     max-height: 400px;
     max-width: 100%;
 }
 
 .demo-2 .large-header {
-	background-image: url('../imges/demo-2-bg.jpg');
 	background-position: center bottom;
 }
 
