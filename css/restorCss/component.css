@@ -10,8 +10,8 @@
 }
 
 .demo-1 .large-header {
- max-height: 400px;
-    max-width: inherit;
+ max-height: 200px;
+    max-width: 8000em;
 }
 
 .demo-2 .large-header {
