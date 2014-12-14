@@ -1,4 +1,4 @@
-// this line loads the library
+<?php // this line loads the library
 require('/path/to/twilio-php/Services/Twilio.php');
 require('/twilio-twilio-php-9d8bb7d/Services/Twilio.php');
 
@@ -15,3 +15,5 @@ $message = $client->account->messages->sendMessage(
 );
 
 print $message->sid;
+
+?>
