@@ -10,7 +10,7 @@ $client = new Services_Twilio($account_sid, $auth_token);
 $client = new Services_Twilio($sid, $token);
 $message = $client->account->messages->sendMessage(
   '353768886539', // From a valid Twilio number
-  '0872726746', // Text this number
+  '+353872726746', // Text this number
   "Hello monkey!"
 );
 
