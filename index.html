@@ -1,173 +1,538 @@
 <!DOCTYPE html>
-<!-- head of html page with references-->
-<html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title> Graham Wolfe's Portfolio</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
 
-<link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
-<script src="javascript/jquery.js" type="text/javascript"></script>
-<script src="javascript/raphael.js" type="text/javascript"></script>
-<script src="javascript/init.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Graham Wolfe - Portfolio</title>
 
-<script src="javascript/portfolio.js" src = "javascript/background%20colour%20chaning%20javascript.jsp"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/raphael.js" type="text/javascript"></script>
+        <script src="js/init.js" type="text/javascript"></script>
+
 </head>
-<!-- html body -->
-<body>
-<section id="header-wrapper">
 
-		<section id="logo">
-			<!-- logo for webpage -->
-			<h1 class="animated bounceInDown"><a href="index.html">Graham Wolfe's Portfolio</a></h1>
-			<!-- link to facebook profile --><br><br><br>
-			<span>Design by <a href="https://www.facebook.com/gwcfc" rel="nofollow">Graham Wolfe</a></span>
-		</section>
+<body id="page-top" class="index">
 
-</section>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Graham Wolfe</a>
+            </div>
 
-	<!-- Introduction to my protfolio -->
-<section id="wrapper2" style="align: centre">
-        <div>
-			<br><br><h2 style="text-align: centre " class="title"> Welcome to my portfolio</h2><br><br>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Background</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-		<article style= "text-align: centre;"><h2> Graham Wolfe:</h2> Is a student who is currently studying for a BSc (hons) in Computing in DIT Kevin Street.
-		Most his skills are from studying computing in DIT, examples of which are software development, project management, Networking, Algorithms and Mathematics, Shell Programming, Building a PC. Other skills were self taught like photoshopping, java programming language and photo restoration.
-		App Development: learning and developing iOS, Android and Windows Phone in-house. Development tools used include Eclipse, Visual Studios, Phonegap and the Corona SDK
-		Web Development: Few skills in web development and design, an understanding of web technologies such as HTML5, CSS3, Javascript, PHP MySQL and Dreamweaver.
-		Software Development: Skilled in software development languages such as C#, C, C++, VB (Visual Basic) and Java working with IDE's such as Eclipse and Visual Studios.
-		<br><br>
-		<h2>Hobbies:</h2> Some of Graham's hobbies include football, running, photo restoration and programming
-		<br><br>
-		<h2>Education:</h2>
-		<h1>Newpark Comprehensive School</h1>
-		Leaving Certificate Completion 2009
-		<h1>Dún Laoghaire College of Further Education (DFEi)</h1>
-		Information Technology with Networking FETAC Level 5, Computer Programming
-		2010 – 2011<br>
-		<h1>Dublin Institute of Technology</h1>
-		BSc(Hons) in Computing, Computer Science
-		2011 – 2015 (expected)
-		<h2>Honours:</h2>
-		4th Year Class Rep
-		</article>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Graham Wolfe</div>
+                <div class="intro-lead-in">Portfolio</div>
+                
+                
+            </div>
+        </div>
+    </header>
 
-		<!-- skills. introduction to my skills and languages. javascript button can hide and make keywords appear -->
-		<br><br>
-		<a id="displayText" class = "button" href="javascript:toggle();">Show Skills</a>
-		<article id="toggleText" style="display: none">
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Background</h2>
+                    <h3 class="section-subheading text-muted">A little about me</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                
+                
+                    
+                    
+                    <p class="text-muted">I am a graduate of DIT (Dublin Institute of Technology) and hold a BSc (hons) degree in Computing.
 
+Most my skills are from studying computing in DIT, examples of which are software development, project management, Networking, Algorithms and Mathematics, Shell Programming, Building a PC. Other skills were self taught like photoshopping, java programming language and photo restoration. <br><br> 
+For more information about me and my skills please feel free to visit my <a href = "https://ie.linkedin.com/in/gwolfe91"> Linkedin Profile </a>
+
+</p>
+    
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Work</h2>
+                    <h3 class="section-subheading text-muted">Some projects of mine</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Photo Restorations</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Hermes Documentation</h4>
+                        <p class="text-muted">Documentation about my final year thesis</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <h3 class="section-subheading text-muted">   </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2011-2015</h4>
+                                    <h4 class="subheading">DIT</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">These were the years where i furthered my skills and learned some more to become the programmer i am today</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2010-2011</h4>
+                                    <h4 class="subheading">Dun Laoghaire Further Education Institute</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">This was the first step i took to becoming a programmer, this course really showed me how fascinating the world of I.T. can be. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2003-2009</h4>
+                                    <h4 class="subheading">Newpark Comprehensive School</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 text-center"><br><br><br>
+                    <h1 class="section-heading">Certificates</h1>
+                    <h3 class="section-subheading text-muted"><br>
+•    CITXX level 5 from FETAC<br>
+•   CCNA Exploration: Accessing the WAN<br>
+•   CCNA certificate in Networking Fundamentals (CISCO)<br>
+•   CCNA certificate in Routing Protocols & Concepts (CISCO)<br>
+•   CCNA certificate in LAN Switching and Wireless (CISCO)<br>
+•   Linux course (SIM-LPI) offered by the Network Development Group (NDG) 
+<br>
+•   BSc (Computing) level 8, Type: Honours Degree
+                    </h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <div id="content">
-			
-			<div id="diagram"></div>
-		</div>
+            
+            <div id="diagram"></div>
+        </div>
 
-		<div class="get">
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/JavaScript">Javascript </a></span>
-				<input type="hidden" class="percent" value="68" />
-				<input type="hidden" class="color" value="#97BE0D" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></span>
-				<input type="hidden" class="percent" value="85" />
-				<input type="hidden" class="color" value="#D84E5F" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/HTML">HTML </a></span>
-				<input type="hidden" class="percent" value="90" />
-				<input type="hidden" class="color" value="#88B8E6" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/PHP"> PHP</a></span>
-				<input type="hidden" class="percent" value="75" />
-				<input type="hidden" class="color" value="#BEDBE9" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="https://en.wikipedia.org/wiki/MySQL"> MySQL</a></span>
-				<input type="hidden" class="percent" value="55" />
-				<input type="hidden" class="color" value="#97BE0D" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/C_(programming_language)"> C</a>,
-				 <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>,
-				 <a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)"> C#</a></span>
-				<input type="hidden" class="percent" value="45" />
-				<input type="hidden" class="color" value="#FEDBEE" />
-			</div>
-			<div class="arc">
-				<span class="text"><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java </a></span>
-				<input type="hidden" class="percent" value="48" />
-				<input type="hidden" class="color" value="#88B8E6" />
-			</div>
-		</div>
-		<br><br><br>
-		<h1>Photoshop:</h1> <a href="http://en.wikipedia.org/wiki/Digital_photograph_restoration">Photo Restoration </a><br>
-		<br><br><br>
-		For full overview of skills and projects please refer to my LinkedIn page (link found at bottom of the page)
-		</article>
-            <br><br><br><br></div>
-	
-<h1>Networking - Cisco Certificates</h1>
-			<ul><li>CCNA certificate in Networking Fundamentals
-			<ul><li>CCNA certificate in Routing Protocols & Concepts
-			<li>CCNA certificate in LAN Switching and Wireless
-            <li>Linux course (SIM-LPI) offered by the Network Development Group (NDG) - (http://www.lpi.org/certification/linux-essentials/)</ul>
-<br><br><br><br><br><br><br><br>
+        <div class="get">
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/JavaScript">Javascript </a></span>
+                <input type="hidden" class="percent" value="68" />
+                <input type="hidden" class="color" value="#97BE0D" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></span>
+                <input type="hidden" class="percent" value="85" />
+                <input type="hidden" class="color" value="#D84E5F" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/HTML">HTML </a></span>
+                <input type="hidden" class="percent" value="90" />
+                <input type="hidden" class="color" value="#88B8E6" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/PHP"> PHP</a></span>
+                <input type="hidden" class="percent" value="75" />
+                <input type="hidden" class="color" value="#BEDBE9" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="https://en.wikipedia.org/wiki/MySQL"> MySQL</a></span>
+                <input type="hidden" class="percent" value="55" />
+                <input type="hidden" class="color" value="#97BE0D" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/C_(programming_language)"> C</a>,
+                 <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>,
+                 <a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)"> C#</a></span>
+                <input type="hidden" class="percent" value="45" />
+                <input type="hidden" class="color" value="#FEDBEE" />
+            </div>
+            <div class="arc">
+                <span class="text"><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java </a></span>
+                <input type="hidden" class="percent" value="48" />
+                <input type="hidden" class="color" value="#88B8E6" />
+            </div>
+        </div>
+                
+        </div>
 
-<h1>Other Certificates</h1>
-<ul><li>CITXX level 5 from FETAC (Information Technology with Networking)
-<ul><li>BSc (Computing) level 8, Type: Honours Degree
-ul>
-<br><br><br><br><br>
+        <div class="col-lg-12 text-center"><br><br><br>
+                    <h3 class="section-subheading text-muted"><br>
+                        *if you would like to see more of my skills please visit my <a href = "https://ie.linkedin.com/in/gwolfe91"> Linkedin Profile </a>
+                    </h3>
+            </div>
 
-	</section>
+        </div>
+    </section>
 
+    
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
 
-<!-- websites i have built. split into 3 sections using css, each links back to homepage because they are under construction-->
-<section id="wrapper3">
-<section id="three-column" class="container">
-	<section><span class="arrow-down"></span></section>
-	<section id="tbox1"> <img src="images/picture11.svg" alt = "constructimg" class="construction">
-		<section class="title">
-			<h2>My Photo Restorations </h2>
-		</section>
-		<p>Live</p>
-		<a href="photoRest.html" class="button">Go To</a> </section>
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            
+                
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Graham Wolfe</h4>
+                        <p class="text-muted">Programmer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/gwolfe_"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/gwcfc"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://ie.linkedin.com/in/gwolfe91"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://github.com/gwolfe"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="mailto:gwolfe91@gmail.com"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                
+                
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
-    <section id="tbox2"> <img src="Hermes/img/icon%20blue.png" alt = "constructimg" class="construction">
-		<section class="title">
-			<h2>Hermes <br></h2>
-		</section>
-		<p>live</p>
-        <p>Documentation on Fourth Year Project Hermes, Contact available also</p>
-		<a href="Hermes/index.html" class="button">Go To</a> </section>
-        </section>
+    <footer>
+        
+    </footer>
 
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Photo Restorations</h2>
+                            <p class="item-intro text-muted">This is the webpage for all my photo restorations i have done</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>These photos that i have restored are photos of family or pictures i found online for learning purposes</p>
+                            <p>
+                                <strong>Want to visit this page?&nbsp;</strong>feel free to <a href="photoRest.html">here</a></p>
+                            <ul class="list-inline">
+                                
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- Contact section each button is a link to a category of contact for me -->
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Documentation on My Final Year Thesis </h2>
+                            <p class="item-intro text-muted">Hermes</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p>This Project is designed to be a web based communications tool for parents and teachers. To enable the parents and teachers ease of communication without having to spend time sending countless emails and calls without getting an instant reply. Using a web based application allows for information anywhere, any time and at the convenience of the end users. Hermes is not software to be installed but an accessible web application for any mobile device, whether that is a laptop, tablet or even a mobile phone. It is perfect for any busy teacher or parent that is on the go non- stop.
+                            This Project was initially thought of for teachers and designed with their needs in mind with some aspects designed for the parents. The requirements for this project will be derived from feedback teachers gave during a survey in the hope of creating a potentially usable web application. Because parents and teachers can range from any age and are not always tech-savvy the design and layout of the web application will be very simplistic with very little navigation needed and it will have a secure login system so no private information can be stolen..</p>
+                            <p>You can view the documentation <a href="Hermes/index.html">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<section id="footer" class="container">
-			<header class="title">
-				<h1>Contact Me By</h1>
-			</header>
-				<a href="https://www.facebook.com/gwcfc"><img src="images/facebook.svg" alt = "fblogo" class="icon"></a>
-				<a href="https://twitter.com/gwolfe_"><img src="images/social.svg" alt = "twitlogo" class="icon"></a>
-				<a href="mailto:gwolfe91@gmail.com"><img src="images/gmail.svg" alt = "gmlogo" class="icon"></a>
-				<a href="https://github.com/gwolfe"><img src="images/github.svg" alt = "ghlogo" class="icon"></a>
-				<a href="https://www.linkedin.com/profile/view?id=252262739"><img src="images/linkedin.svg" alt = "lilogo" class="icon"></a>
-	</section>
-</section>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
+
 </html>
-
-
-
