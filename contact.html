@@ -1,70 +1,97 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Contact Form</title>
-		
-		<link rel="stylesheet" href="contactstyle.css" type="text/css" />
-		
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="js/jquery.form.js"></script>
-		<script type="text/javascript" src="js/contact.js"></script>
-	</head>
-	<body>
-		<div id="wrap">
-			<h1>Contact Sweetness</h1>
-			<form id="contactform" action="processForm.php" method="post">
-				<table>
-					<tr>
-						<td><label for="name">Name:</label></td>
-						<td><input type="text" id="name" name="name" /></td>
-					</tr>
-					<tr>
-						<td><label for="email">Email:</label></td>
-						<td><input type="text" id="email" name="email" /></td>
-					</tr>
-					<tr>
-						<td><label for="message">Message:</label></td>
-						<td><textarea id="message" name="message" rows="5" cols="20"></textarea></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td><input type="submit" value="Send!" id="send" /></td>
-					</tr>
-				</table>
-			</form>
-			<div id="response"></div>
-		</div>
-		
-		
-		
-		<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Send e-mail to someone@example.com:</h2>
-
-<form action="MAILTO:gwolfe91@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name" value="your name"><br>
-E-mail:<br>
-<input type="text" name="mail" value="your email"><br>
-Comment:<br>
-<input type="text" name="comment" value="your comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+<form name="contactform" method="post" action="send_form_email.php">
+ 
+<table width="450px">
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="first_name">First Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top"">
+ 
+  <label for="last_name">Last Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Email Address *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="email" maxlength="80" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Telephone Number</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">Comments *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td colspan="2" style="text-align:center">
+ 
+  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+ 
+ </td>
+ 
+</tr>
+ 
+</table>
+ 
 </form>
-
-</body>
-</html>
-
-		
-		
-		
-		
-		
-		
-		
-		
-	</body>
-</html>
